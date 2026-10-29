@@ -16,19 +16,19 @@
     </properties>
 
     <repositories>
-        <!-- Стабильное зеркало CodeMC для Spigot и Paper API -->
+        <!-- Официальный стабильный репозиторий SpigotMC -->
         <repository>
-            <id>codemc-repo</id>
-            <url>https://codemc.io</url>
+            <id>spigotmc-repo</id>
+            <url>https://spigotmc.org</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <!-- Стабильная зависимость Spigot API версии 1.21.1 -->
+        <!-- Изменили версию, чтобы Maven скачал совершенно другой, чистый архив -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
