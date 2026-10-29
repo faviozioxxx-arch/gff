@@ -24,11 +24,11 @@
     </repositories>
 
     <dependencies>
-        <!-- Доступная версия API для всей линейки серверов 1.21 -->
+        <!-- Актуальная стабильная версия API для серверов 1.21 -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21.3-R0.1-SNAPSHOT</version>
+            <version>1.21.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
