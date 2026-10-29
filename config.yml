@@ -1,0 +1,15 @@
+# Как часто сломанные блоки в шахте заменяются новой рудой (в секундах)
+spawn-interval-seconds: 120
+
+# Руды и их "вес". Чем меньше число, тем реже руда.
+ores:
+  COAL_ORE: 40
+  COPPER_ORE: 25
+  IRON_ORE: 20
+  REDSTONE_ORE: 10
+  LAPIS_ORE: 8
+  GOLD_ORE: 5
+  DIAMOND_ORE: 2
+
+messages:
+  no-permission: "&cУ тебя нет прав."

@@ -1,0 +1,16 @@
+name: MineZone
+version: 1.0
+main: me.minezone.MineZonePlugin
+api-version: '1.21'
+softdepend: [WorldGuard, GriefPrevention, Towny]
+commands:
+  mzone:
+    description: Выбор точек шахты
+    usage: /mzone <one|two>
+  mine:
+    description: Управление шахтами
+    usage: /mine <create|delete|list|reload>
+permissions:
+  minezone.admin:
+    description: Доступ ко всем командам плагина
+    default: op
