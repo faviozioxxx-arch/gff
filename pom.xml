@@ -16,17 +16,15 @@
     </properties>
 
     <repositories>
+        <!-- Стабильное зеркало CodeMC для Spigot и Paper API -->
         <repository>
-            <id>spigotmc-repo</id>
-            <url>https://spigotmc.org</url>
-        </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://sonatype.org</url>
+            <id>codemc-repo</id>
+            <url>https://codemc.io</url>
         </repository>
     </repositories>
 
     <dependencies>
+        <!-- Стабильная зависимость Spigot API версии 1.21.1 -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
