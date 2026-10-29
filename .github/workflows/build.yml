@@ -14,10 +14,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
 
-      - name: Build
-        run: mvn -B package
+      - name: Build with Maven
+        run: mvn -B -U clean package
 
       - uses: actions/upload-artifact@v4
         with:
